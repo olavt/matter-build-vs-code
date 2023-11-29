@@ -48,6 +48,32 @@ $ git config --global core.longpaths true
 
 Open Visual Studio Code and clone the main Matter Git repository from Github: project-chip/connectedhomeip
 
-Install the Dev Containers extension for Visual Studio Code, this extension allows you to use docker containers as a development backend.
+## Install the Dev Containers extension for Visual Studio Code
+
+This extension allows you to use docker containers as a development backend.
 
 https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
+
+## Install WSL extension for Visual Studio Code
+
+The WSL extension lets you use VS Code on Windows to build Linux applications that run on the Windows Subsystem for Linux (WSL).
+
+## Restart Visual Studio Code
+
+Restart Visual Studio code and open the connectedhomeip folder.
+
+## Reopen in Container
+
+You should now get this message in the lower rigth corner of Visual Studio Code:
+
+![Open Remote Window](./images/reopen-in-container-prompt.png)
+
+Click on "Reopen in Container
+
+If you don't see the message, you can do the following:
+
+Click on the Open Remote Window icon in the bottom left corner of Visual Studio Code:
+
+![Open Remote Window](./images/open-remote-window.png)
+
+Click on "Reopen in Container
