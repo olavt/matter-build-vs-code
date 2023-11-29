@@ -13,10 +13,6 @@ Install Git from https://git-scm.com/
 
 Enable the Windows Subsystem for Linux (WSL) following instructions here: https://learn.microsoft.com/en-us/windows/wsl/install
 
-## Install Ubuntu
-
-Install Ubuntu from the Windows App Store here: https://apps.microsoft.com/detail/9PN20MSR04DW?hl=en-us&gl=US
-
 ## Install Docker
 
 Install Docker for your operating system of choice from here: https://docs.docker.com/engine/install
@@ -52,4 +48,6 @@ $ git config --global core.longpaths true
 
 Open Visual Studio Code and clone the main Matter Git repository from Github: project-chip/connectedhomeip
 
+Install the Dev Containers extension for Visual Studio Code, this extension allows you to use docker containers as a development backend.
 
+https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
